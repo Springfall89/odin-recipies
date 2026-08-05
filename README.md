@@ -9,4 +9,4 @@ As for the code itself. Writing the text and lists feels like writing in Markdow
 
 I'm all in for it and I hope I can continue lerning more interesting code syntax like this in the CSS lessons later on in the Odin Project. HTML is not that bad to write with.
 
-    Springfall, 5th August, 2026
+Springfall, 5th August, 2026
