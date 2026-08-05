@@ -1,2 +1,2 @@
 # odin-recipies
-A project created to follow the Odin Project curriculum
+A project created to follow the Odin Project curriculum and reflect on what I've learned in the course, including how to write HTML elements and tags which allows me to add text and organize them into headers or paragraphs. I can now also add links and images which can be handy. The attributes for links and images are also very useful as I've learned many best practices such as putting alternative text to images and making sure the links target attribute is secure.
