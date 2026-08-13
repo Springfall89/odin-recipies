@@ -1,0 +1,30 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #FFCCD5;
+    color: #590D22;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+    color: #A4133C;
+}
+
+.header
+{
+    height: 50px;
+    background-color: #FF8FA3;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
