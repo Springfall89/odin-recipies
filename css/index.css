@@ -1,0 +1,57 @@
+/* ============================================================
+                    CLASSES 
+   ============================================================ */
+.button-recipe-container
+{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.button-recipe,
+.button-recipe > *
+{
+    border-radius: 10px;
+}
+
+.button-recipe
+{
+    width: 400px;
+    height: 500px;
+    background-color: #FFB3C1;
+    display: flex;
+    flex-direction: column;
+    flex: initial;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.button-recipe img
+{
+    max-width: 350px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.button-recipe p
+{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ============================================================
+                    CLASSES: HOVER
+   ============================================================ */
+
+.button-recipe:hover
+{
+    background-color: #FF4D6D;
+    color: #590D22;
+}
