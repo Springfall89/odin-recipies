@@ -3,6 +3,46 @@ img
     max-width: 700px;
     width: 100%;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+}
+
+p,
+ul,
+ol
+{
+    box-sizing: border-box;
+    max-width: 700px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.25;
+}
+
+li
+{
+    margin: 15px;
+}
+
+ul
+{
+    list-style-type: disc;
+}
+
+ol
+{
+    list-style-type: decimal;
+}
+
+h1
+{
+    font-size: 48px;
+    max-width: 700px;
+    width: 100%;
+    margin: 0;
+}
+
+/* ============================================================
+                    CLASSES: CONTENT  
+   ============================================================ */
+.content
+{
+    padding-bottom: 32px;
 }
