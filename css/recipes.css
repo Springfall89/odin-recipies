@@ -13,7 +13,7 @@ ol
     box-sizing: border-box;
     max-width: 700px;
     width: 100%;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     line-height: 1.25;
 }
 
@@ -49,7 +49,7 @@ h1
     ul,
     ol
     {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .text-container

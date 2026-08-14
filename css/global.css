@@ -27,8 +27,7 @@ a
 .header
 {
     box-sizing: border-box;
-    min-height: 50px;
-    max-height: 150px;
+    min-width: fit-content;
     height: 50px;
     background-color: #FF8FA3;
     font-size: 24px;
@@ -72,6 +71,7 @@ a
 .title
 {
     box-sizing: border-box;
+    min-width: fit-content;
     font-size: clamp(2.5rem, 10vw, 5rem);
     font-weight: 700;
     padding: 32px;
@@ -94,4 +94,33 @@ a
 {
     background-color: #FF4D6D;
     color: #590D22;
+}
+
+/* ============================================================
+                CLASSES: SMALL SCREEN SIZES
+   ============================================================ */
+@media screen and (max-width: 600px)
+{
+    .header
+    {
+        height: 150px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .header-left,
+    .header-right
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .credits,
+    .source-code
+    {
+        box-sizing: border-box;
+        width: 100%;
+        justify-content: center;
+    }
 }
