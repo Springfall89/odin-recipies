@@ -3,9 +3,9 @@
    ============================================================ */
 .button-recipe-container
 {
-    padding-left: min(32px, 16px);
-    padding-right: min(32px, 16px);
-    padding-bottom: min(32px, 16px);
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
