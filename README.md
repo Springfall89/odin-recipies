@@ -5,8 +5,17 @@ My new profound skills include how to write HTML elements and tags which allows 
 
 Finishing this project causes me to look back on the recipes which must have taken the people who originally created them take a very long time to perfect and that make me respect them for that.
 
-As for the code itself. Writing the text and lists feels like writing in Markdown with the difference of that the elements are put into tags.
+# Live Website
+**View the live website at https://springfall89.github.io/odin-recipies**
+# odin-recipies
+A project created to follow the Odin Project curriculum and reflect on what I've learned in the course.
 
-I'm all in for it and I hope I can continue lerning more interesting code syntax like this in the CSS lessons later on in the Odin Project. HTML is not that bad to write with.
+This project includes a list of recipes to follow with good style looks.
+# Credits
+Huge thanks to the people who wrote the original recipes at [Allrecipes](https://www.allrecipes.com/):
+- [Easy Fried Rice Recipe](https://www.allrecipes.com/recipe/79543/fried-rice-restaurant-style/)
+- [BBQ Chicken Pizza Recipe](https://www.allrecipes.com/recipe/24878/bbq-chicken-pizza/)
+- [Macarons (French Macarons)](https://www.allrecipes.com/recipe/223234/macaron-french-macaroon/)
 
-Springfall, 5th August, 2026
+And special thanks to [The Odin Project](https://www.theodinproject.com/about). Writing this website wouldn't be possible without learning from the curriculum.
+
