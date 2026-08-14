@@ -1,10 +1,9 @@
 img
 {
-    max-width: 700px;
-    width: 100%;
+    width: clamp(100px, 90%, 700px);
     border-radius: 10px;
-    margin-left: 32px;
-    margin-right: 32px;
+    display: flex;
+    flex: initial;
 }
 
 p,
@@ -14,7 +13,7 @@ ol
     box-sizing: border-box;
     max-width: 700px;
     width: 100%;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.25;
 }
 
@@ -25,7 +24,7 @@ li
 
 h1
 {
-    font-size: 48px;
+    font-size: clamp(2rem, 10vw, 3rem);
     max-width: 700px;
     width: 100%;
     margin: 0;
@@ -39,4 +38,24 @@ h1
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 32px;
+}
+
+/* ============================================================
+                CLASSES: SMALL SCREEN SIZES
+   ============================================================ */
+@media screen and (max-width: 600px)
+{
+    p,
+    ul,
+    ol
+    {
+        font-size: 1rem;
+    }
+
+    .text-container
+    {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 16px;
+    }
 }

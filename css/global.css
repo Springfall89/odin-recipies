@@ -72,7 +72,7 @@ a
 .title
 {
     box-sizing: border-box;
-    font-size: 100px;
+    font-size: clamp(2.5rem, 10vw, 5rem);
     font-weight: 700;
     padding: 32px;
     height: 100vh;

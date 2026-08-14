@@ -3,12 +3,12 @@
    ============================================================ */
 .button-recipe-container
 {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 32px;
+    padding-left: min(32px, 16px);
+    padding-right: min(32px, 16px);
+    padding-bottom: min(32px, 16px);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     gap: 32px;
 }
 
@@ -20,28 +20,32 @@
 
 .button-recipe
 {
-    width: 400px;
-    height: 500px;
+    box-sizing: border-box;
+    width: clamp(100px, 100%, 400px);
+    height: clamp(100px, 100%, 500px);
+    padding: 32px;
     background-color: #FFB3C1;
     display: flex;
     flex-direction: column;
     flex: initial;
     justify-content: space-evenly;
     align-items: center;
-
+    gap: 32px;
 }
 
 .button-recipe img
 {
-    max-width: 350px;
+    max-width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
+    display: flex;
+    flex: initial;
 }
 
 .button-recipe p
 {
     margin: 0;
-    font-size: 40px;
+    font-size: clamp(1.25rem, 7.5vw, 2.25rem);
     font-weight: 700;
     text-align: center;
 }
@@ -54,4 +58,21 @@
 {
     background-color: #FF4D6D;
     color: #590D22;
+}
+/* ============================================================
+                CLASSES: SMALL SCREEN SIZES
+   ============================================================ */
+@media screen and (max-width: 600px)
+{
+    .button-recipe-container
+    {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .button-recipe
+    {
+        padding: 24px;
+        gap: 24px;
+    }
 }
