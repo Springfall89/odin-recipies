@@ -3,6 +3,8 @@ img
     max-width: 700px;
     width: 100%;
     border-radius: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 p,
@@ -42,7 +44,9 @@ h1
 /* ============================================================
                     CLASSES: CONTENT  
    ============================================================ */
-.content
+.text-container
 {
+    padding-left: 32px;
+    padding-right: 32px;
     padding-bottom: 32px;
 }
